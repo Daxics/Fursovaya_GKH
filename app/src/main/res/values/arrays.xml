@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="electr_arr">
+        <item>Единая ставка</item>
+        <item>Две суточные зоны</item>
+        <item>Три суточные зоны</item>
+    </string-array>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:key="PrefScr" >
+
+    <PreferenceCategory android:title="Отопление">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="home"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Тариф на тепловую энергию"
+            android:dialogTitle="руб./Гкал"
+            android:inputType="numberDecimal" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Водоснабжение">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="cold"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Тариф на холодное водоснабжение"
+            android:dialogTitle="руб./м³"
+            android:inputType="numberDecimal" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="hot"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Тариф на горячее водоснабжение"
+            android:dialogTitle="руб./м³"
+            android:inputType="numberDecimal" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="drainage"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Тариф на водоотведение"
+            android:dialogTitle="руб./м³"
+            android:inputType="numberDecimal" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Газоснобжение"
+        >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="руб./м³"
+            android:inputType="numberDecimal"
+            android:key="gas"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Тариф на газоснабжение" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Электричество">
+        <ListPreference
+            android:defaultValue="Единая ставка"
+            android:entries="@array/electr_arr"
+            android:entryValues="@array/electr_arr"
+            android:key="elect"
+            android:title="Тариф электроснабжения" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

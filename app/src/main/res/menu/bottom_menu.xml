@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calculate"
+        android:title="Расчитать" android:icon="@drawable/ic_calculate_fill0"/>
+    <item
+        android:id="@+id/scanner"
+        android:title="Отсканировать" android:icon="@drawable/ic_qr_code_scanner_fill1"/>
+    <item
+        android:id="@+id/history"
+        android:title="История" android:icon="@drawable/ic_schedule_fill0"/>
+</menu>

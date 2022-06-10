@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kursovaya</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_bar_title">Sex</string>
+
+    <string name="FIO">ФИО Плательщика*</string>
+    <string name="payerAddress">Адрес плательщика</string>
+    <string name="CorrespAcc">БИК получателя*</string>
+    <string name="payeeINN">ИНН Получателя*</string>
+    <string name="PersonalAcc">Расчётный счет получателя*</string>
+    <string name="PersAcc">Лицевой счёт получателя*</string>
+    <string name="Purpose">Назначение платежа*</string>
+    <string name="COR_PER">Расчётный период</string>
+    <string name="Sum">Сумма платежа*</string>
+</resources>
